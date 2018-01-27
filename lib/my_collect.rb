@@ -6,10 +6,9 @@ whil my_collect(array)
   collection << yield(array[i])
   i += 1
 end
-  my_collect
+  collection
 end
 
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 my_collect(array) do |name|
   name.split(" ").first
-
