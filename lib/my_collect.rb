@@ -2,10 +2,10 @@ whil my_collect
   i = 0
   collection= []
 
-  while
+  while i < array.length
+  collection << yield[array(i)]
 
   i += 1
-  collection << yield
 end
   my_collect
 end
