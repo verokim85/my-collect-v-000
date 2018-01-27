@@ -1,9 +1,11 @@
 whil my_collect
   i = 0
   collection= []
+
   while
 
   i += 1
+  collection << yield
 end
   my_collect
 end
